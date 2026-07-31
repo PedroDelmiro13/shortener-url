@@ -1,12 +1,13 @@
 # Shortener URL
 
-Encurtador de URLs desenvolvido em Java com Spring Boot, utilizando MongoDB como banco de dados e Docker para containerização.
+Encurtador de URLs desenvolvido em Java com Spring Boot, utilizando MongoDB como banco de dados, Docker para containerização e Redis para inclusão de cache na aplicação.
 
 ##  Tecnologias
 
 - Java
 - Spring Boot
 - MongoDB
+- Redis
 - Docker / Docker Compose
 - Maven
 
