@@ -37,13 +37,14 @@ cd ..
 ```
 
 ##  Estrutura do projeto
-
 ```
 shortener-url/
 ├── docker/                  # Configuração do container (docker-compose)
 ├── src/main/java/...        # Código-fonte da aplicação
 │   ├── controller/           # Controllers e DTOs da API
+│   ├── service/                # Regras de negócio
 │   ├── model/                 # Modelos de dados
 │   └── repository/            # Repositórios (MongoDB)
 └── pom.xml                   # Dependências do projeto (Maven)
+
 ```
