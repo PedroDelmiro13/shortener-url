@@ -6,3 +6,8 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=admin
       - MONGO_INITDB_ROOT_PASSWORD=123
+  redis:
+    image: redis:alpine
+    container_name: redis-shortener
+    ports:
+      - "6379:6379"
